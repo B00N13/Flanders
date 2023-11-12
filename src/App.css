@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: white;
+}
+#backgroundImageContainer{
+  position: relative;
+  background-image: url("49592058341_d5f6a98c39_k.jpg");
+  width: 99%;
+  height: 98vh;
+  background-position: center;
+  border-radius: 7px;
+  border: 1px solid grey;
+}
+#loginFormContainer{
+  width: 250px;
+  height: 350px;
+  background-color:#95bce2;
+  border-radius: 7px;
+  border: 3px solid #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.2);
+}
+#logoContainer{
+  background: url("flanders-logo.png") no-repeat center;
+  width: 150px;
+  height: 50px;
+  margin-top: 40px;
+  margin-left: 50px;
+  background-size: contain;
+}
+#loginFormContainer form{
+  float:left;
+  font-size: 16px;
+  width: 150px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+  margin-top: 70px;
+}
+#loginFormContainer label, #loginFormContainer input{
+  float:left;
+  width: 150px;
+  text-align: left;
+  color: #fff;
+}
+#loginFormContainer input{
+background: #fff;
+border: 1px solid #999;
+border-radius: 5px;
+margin-bottom: 5px;
+}
+#loginButton{
+  border-radius: 7px;
+  border: 1px solid #fff;
+  color: darkslateblue;
+  width: 100px;
+  margin-top: 10px;
+}
+#errorMesageText{
+  color: rgb(55, 41, 143);
+  font-size: 14px;
+  font-weight: bold;
+  width: 250px;
+  position: absolute;
+  bottom: 0;
+}
